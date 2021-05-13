@@ -1,0 +1,29 @@
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `userm`
+--
+
+CREATE TABLE `userm` (
+  `userid` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `phone` varchar(50) NOT NULL,
+  `uname` varchar(50) NOT NULL,
+  `password` varchar(11) NOT NULL,
+  `utype` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `userm`
+--
+
+INSERT INTO `userm` (`userid`, `name`, `email`, `phone`, `uname`, `password`, `utype`) VALUES
+(8, 'Malkini', 'malki@gmail.com', '071234500', 'mal001', 'kal2', 'Buyer'),
+(9, 'Saduni', 'sa@gmail.com', '07657890', 'Sa01', 's123', 'Reseacher'),
+(11, 'Supun', 'su@gmail.com', '076452310', 'S01', 's12', 'Reseacher'),
+(12, 'Kalani', 'kal@gmail.com', '0700452310', 'K01', 'k12', 'Buyer'),
+(13, 'Pawani', 'pal@gmail.com', '0700455678', 'P01', 'p12', 'Buyer'),
+(14, 'Malmi', 'ma@gmail.com', '0710455201', 'Ma01', 'm15', 'Seller');
+
+--
